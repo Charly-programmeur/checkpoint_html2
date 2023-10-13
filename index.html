@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!-- Entête de page -->
+    <header>
+        <h1>Portfolio</h1>
+
+        <h4>Navigation</h4>
+
+        <ul type="square">
+            <li>Accueil</li>
+            <li>A propos</li>
+            <li>Travail</li>
+            <li>CV</li>
+            <li>Contact</li>
+        </ul>
+
+
+        <select>
+            <option value="apropos">A propos</option>
+            <option value="Travail">Travail</option>
+            <option value="cv">cv</option>
+            <option value="contact" ><a href="#contact"></a>Contact</option>
+        </select>
+        <hr>
+    </header>   
+    
+
+    <!--corps de page -->
+    <main>
+        <h1>A propos</h1>
+
+        <h2>Je m'appel Noudjalta D. Charles-Frédéric</h2>
+        <br>
+        <img src="identité.jpg" alt="photo-identite" width="200px" height="150px">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio molestiae debitis aliquid amet <br> officia alias consequatur. Ut tempore, itaque possimus porro fugit illo ipsa rerum, molestias quisquam architecto optio repudiandae.<br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa quisquam odit ab, similique <br> in obcaecati exercitationem, iure consequatur, necessitatibus rerum quaerat laborum ratione saepe debitis vitae cumque eveniet veritatis. Recusandae.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ad illo <br> ipsam voluptatem cumque culpa aliquam fugit reprehenderit ipsa nulla! Dolorem nemo maiores voluptates modi rerum. Vel distinctio placeat aliquid.</p>
+
+        <h2>J'aime le chocolat </h2>
+
+        <video src="choco.mp4" controls autoplay width="300px" height="200px"></video>
+
+        <table border="4">
+            <tr>
+                <th>Loisir</th>
+                <th>Sport</th>
+                <th>Passion</th>
+                <th>Langage</th>
+            </tr>
+            <tr>
+                <td>Lire</td>
+                <td>Basket</td>
+                <td>Manga</td>
+                <td>Javascript</td>
+            </tr>
+        </table>
+        <br><br>
+
+        <h2>Travail</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sint at consectetur mollitia ullam. Ad, neque? Excepturi dicta labore hic<br> commodi ipsam, deleniti culpa earum itaque quisquam vel exercitationem accusantium.<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dignissimos ducimus<br> rerum at vero, illo suscipit doloremque tempora mollitia maiores qui commodi nihil sequi dicta ipsum nostrum asperiores incidunt iste?</p>
+
+        <h4>Langage de programmation maitriser : </h4>
+        <select>
+            <option value="Html">HTML</option>
+            <option value="Css">Css</option>
+            <option value="Javascript">Javascript</option>
+            <option value="Java">Java</option>
+        </select>
+
+        <h4>Télécharger mon C.V ici:</h4>
+        <a href="C.V_NOUDJALTA_Djitaïngué_Charles-Frédéric.pdf">Mon CV</a>
+    </main>
+
+    <!-- Pied de page -->
+
+    <footer>
+        <form>
+            <h1><a href="#contact"></a>Contact</h1>
+            <br>
+            <label>Recherche</label>
+            <input type="text" name="search" placeholder="Recherche...">
+            <br>
+            <label >Nom</label>
+            <input type="text" name="nom" placeholder="Veuillez saisir votre nom"/>
+            <br>
+
+            <label>Prenom</label>
+            <input type="text" name="prenom" placeholder="Veuillez entrer votre prenom"/>
+            <br>
+
+            <label>Mail</label>
+            <input type="text" name="mail" placeholder="Saisissez votre mail"/>
+            <br>
+
+            <label>Phone</label>
+            <input type="tel" name="phone" placeholder="votre numéro de téléphone"/>
+            <br>
+
+            <label>Maricule</label>
+            <input type="number" name="numero" placeholder="votre numéro">
+        </form>
+
+        <br>
+
+        <textarea name="test" id="" cols="30" rows="5">Ceci est un message test
+        </textarea>
+        
+    </footer>
+    
+</body>
+</html>
